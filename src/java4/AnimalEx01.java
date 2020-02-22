@@ -1,16 +1,15 @@
 package java4;
 
+// 인터페이스가 가진 모든 변수나 함수는 public이 내장!!
 interface Animal {
-	
-	public abstract void sound();
-	
+	void sound();
 }
 
 class Dog implements Animal{
-	
-	// 무효화시키다.
+	@Override
 	public void sound() {
-		System.out.println("멍멍");
+		// TODO Auto-generated method stub
+		
 	}
 }
 
